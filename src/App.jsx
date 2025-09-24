@@ -1,7 +1,7 @@
 import React from "react";
 import TopBar from "./components/common/TopBar";
 import Navbar from "./components/common/Navbar";
-import Hero from "./components/common/Hero";
+import Hero from "./components/pages/Hero";
 import Footer from "./components/common/Footer";
 
 export default function App() {
