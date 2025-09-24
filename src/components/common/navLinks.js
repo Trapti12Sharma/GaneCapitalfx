@@ -1,23 +1,29 @@
 export const navLinks = [
   {
     title: "Products",
-    submenu: ["Forex", "Commodities", "Indices", "Shares"],
+    submenu: [
+      "Forex",
+      "Commodities",
+      "Indices",
+      "Shares",
+      "Deposits & Withdrawals",
+    ],
   },
   {
     title: "Platforms",
-    submenu: ["MT4", "MT5", "WebTrader", "Mobile App"],
+    submenu: ["MetaTrader4", "MetaTrader5", "All Platforms"],
   },
   {
     title: "Accounts",
-    submenu: ["Standard Account", "Pro Account", "Islamic Account"],
+    submenu: ["Copy Trading", "Demo", "All Accounts"],
   },
   {
     title: "Insights",
-    submenu: ["Market News", "Analysis", "Webinars", "Trading Signals"],
+    submenu: ["Trading Tools"],
   },
   {
     title: "Partners",
-    submenu: ["IB Program", "Affiliate Program", "White Label"],
+    submenu: [],
   },
   {
     title: "About us",
