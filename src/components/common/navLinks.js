@@ -1,32 +1,43 @@
+// src/common/navLinks.js
 export const navLinks = [
   {
     title: "Products",
     submenu: [
-      "Forex",
-      "Commodities",
-      "Indices",
-      "Shares",
-      "Deposits & Withdrawals",
+      { name: "Forex", path: "/forex" },
+      { name: "Commodities", path: "/commodities" },
+      { name: "Indices", path: "/indices" },
+      { name: "Shares", path: "/shares" },
+      { name: "Deposits & Withdrawals", path: "/deposit-withdrawal" },
     ],
   },
   {
     title: "Platforms",
-    submenu: ["MetaTrader4", "MetaTrader5", "All Platforms"],
+    submenu: [
+      { name: "MetaTrader4", path: "/mt4" },
+      { name: "MetaTrader5", path: "/mt5" },
+      { name: "All Platforms", path: "/all-platforms" },
+    ],
   },
   {
     title: "Accounts",
-    submenu: ["Copy Trading", "Demo", "All Accounts"],
+    submenu: [
+      { name: "Copy Trading", path: "/copy-trading" },
+      { name: "Demo", path: "/demo" },
+      { name: "All Accounts", path: "/all-accounts" },
+    ],
   },
   {
     title: "Insights",
-    submenu: ["Trading Tools"],
+    submenu: [{ name: "Trading Tools", path: "/trading-tools" }],
   },
   {
     title: "Partners",
+    path: "/partners",
     submenu: [],
   },
   {
     title: "About us",
-    submenu: [], // no dropdown
+    path: "/about", // single page
+    submenu: [],
   },
 ];

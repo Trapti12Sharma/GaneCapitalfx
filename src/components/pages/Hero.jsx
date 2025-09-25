@@ -2,7 +2,8 @@ import React from "react";
 import Button from "../common/Button";
 import TradingBanner from "../common/TradingBanner";
 import PromoBanner from "../common/PromoBanner";
-import ReusableCard from "../common/ReusableCard";
+import FeatureSection from "../common/FeatureSection";
+import { FaPercent, FaTachometerAlt, FaAward } from "react-icons/fa";
 import InfoSection from "../common/InfoSection";
 import CtaBanner from "../common/CtaBanner";
 import CardGridSection from "../common/CardGridSection";
@@ -35,6 +36,33 @@ export default function Hero() {
     },
   ];
 
+  const card = [
+    {
+      icon: <FaPercent />,
+      title: "Costs kept low",
+      description:
+        "$0 platform fees, $0 commission^ and spreads from 0.0 pips* to keep your money on market.",
+      linkText: "Trading accounts",
+      linkUrl: "/all-accounts",
+    },
+    {
+      icon: <FaTachometerAlt />,
+      title: "Speedy & secure",
+      description:
+        "Trade with a regulated broker that offers fast execution on world-famous trading platforms.",
+      linkText: "Trading platforms",
+      linkUrl: "/all-platforms",
+    },
+    {
+      icon: <FaAward />,
+      title: "Award-winning benefits",
+      description:
+        "24/6 customer support, built-in research tools, free training resources and networking events.",
+      linkText: "Join the Academy",
+      linkUrl: "/about",
+    },
+  ];
+
   const handleClick = () => alert("Button clicked!");
 
   return (
@@ -43,29 +71,11 @@ export default function Hero() {
 
       <PromoBanner />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
-        <ReusableCard
-          title="Secure Transactions"
-          description="Your funds are always safe with top-notch encryption."
-          image="https://via.placeholder.com/80"
-          buttonText="Learn More"
-          onButtonClick={handleClick}
-        />
-
-        <ReusableCard
-          title="Fast Withdrawals"
-          description="Get your money quickly and easily anytime."
-          image="https://via.placeholder.com/80"
-          buttonText="Withdraw Now"
-          onButtonClick={() => console.log("Withdraw clicked")}
-        />
-
-        <ReusableCard
-          title="24/7 Support"
-          description="We’re here to help whenever you need us."
-          image="https://via.placeholder.com/80"
-        />
-      </div>
+      <FeatureSection
+        subtitle="WHY TRADE WITH GANECAPITALFX?"
+        title="All your online trading needs in one hi-tech dashboard"
+        cards={card}
+      />
 
       <InfoSection
         subtitle="ONLINE TRADING PRODUCTS"
@@ -85,34 +95,16 @@ export default function Hero() {
         primaryBtnUrl="/start"
         secondaryBtnText="TRY FOR FREE"
         secondaryBtnUrl="/demo"
-        bgColor="bg-[#1f1f1f]" // dark background
+        bgColor="bg-[#1f1f1f]"
         textColor="text-white"
         subtitleColor="text-teal-400"
       />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
-        <ReusableCard
-          title="Secure Transactions"
-          description="Your funds are always safe with top-notch encryption."
-          image="https://via.placeholder.com/80"
-          buttonText="Learn More"
-          onButtonClick={handleClick}
-        />
-
-        <ReusableCard
-          title="Fast Withdrawals"
-          description="Get your money quickly and easily anytime."
-          image="https://via.placeholder.com/80"
-          buttonText="Withdraw Now"
-          onButtonClick={() => console.log("Withdraw clicked")}
-        />
-
-        <ReusableCard
-          title="24/7 Support"
-          description="We’re here to help whenever you need us."
-          image="https://via.placeholder.com/80"
-        />
-      </div>
+      <FeatureSection
+        subtitle="WHY TRADE WITH GANECAPITALFX?"
+        title="All your online trading needs in one hi-tech dashboard"
+        cards={card}
+      />
 
       <InfoSection
         subtitle="ONLINE TRADING PRODUCTS"
