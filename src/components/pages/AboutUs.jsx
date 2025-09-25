@@ -149,13 +149,13 @@ export default function AboutUs() {
     {
       image: "/award3.png",
       title: "Best Forex Broker Kenya 2021",
-      description: "World Economic Magazine (FXPesa, Kenya)",
+      description: "World Economic Magazine (Ganecapitalfx, Kenya)",
       bgColor: "#fff3e0",
     },
     {
       image: "/award4.png",
       title: "Best Broker in Africa Award 2021",
-      description: "AtoZ Markets (FXPesa, Kenya)",
+      description: "AtoZ Markets (Ganecapitalfx, Kenya)",
       bgColor: "#ede7f6",
     },
     {
@@ -167,7 +167,7 @@ export default function AboutUs() {
     {
       image: "/award6.png",
       title: "Best Non-Dealing Online Forex Broker Award",
-      description: "DigiTech Excellence Awards 2019 (FXPesa, Kenya)",
+      description: "DigiTech Excellence Awards 2019 (Ganecapitalfx, Kenya)",
       bgColor: "#fce4ec",
     },
   ];

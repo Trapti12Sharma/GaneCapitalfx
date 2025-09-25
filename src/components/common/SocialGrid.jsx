@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function SocialGrid({
-  subtitle = "FXPESA NEWSROOM",
+  subtitle = "Ganecapitalfx NEWSROOM",
   title = "Fresh off the press",
   description = "Follow us on our social media for our latest news, events and new product releases.",
   socials = [],

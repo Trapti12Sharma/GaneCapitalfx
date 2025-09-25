@@ -131,9 +131,9 @@ export default function Partners() {
   return (
     <>
       <PartnerSection
-        subtitle="FXPESA PARTNERS"
+        subtitle="Ganecapitalfx PARTNERS"
         title="Partner up for extra perks"
-        description="Expand your client network with market-leading rebates and high commissions as an Introducing Broker for FXPesa."
+        description="Expand your client network with market-leading rebates and high commissions as an Introducing Broker for Ganecapitalfx."
         buttonText="BECOME A PARTNER"
         buttonLink="/partners"
         image="/partner.png"
@@ -157,7 +157,7 @@ export default function Partners() {
 
       <FAQSection
         subtitle="FAQs"
-        title="FXPesa Partner FAQs"
+        title="Ganecapitalfx Partner FAQs"
         faqs={faqsData}
         bgColor="#ffffff"
       />

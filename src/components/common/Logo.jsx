@@ -6,7 +6,7 @@ export default function Logo() {
       <img
         src="/GaneCapital-logo.png"
         alt="GaneCapitalfx"
-        className="h-25 w-auto"
+        className="h-30 w-34"
       />
     </a>
   );
