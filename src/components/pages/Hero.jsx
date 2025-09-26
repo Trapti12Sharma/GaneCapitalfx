@@ -1,12 +1,11 @@
 import React from "react";
-import Button from "../common/Button";
 import TradingBanner from "../common/TradingBanner";
 import PromoBanner from "../common/PromoBanner";
 import FeatureSection from "../common/FeatureSection";
-import { FaPercent, FaTachometerAlt, FaAward } from "react-icons/fa";
 import InfoSection from "../common/InfoSection";
 import CtaBanner from "../common/CtaBanner";
 import CardGridSection from "../common/CardGridSection";
+import { FaPercent, FaTachometerAlt, FaAward } from "react-icons/fa";
 
 export default function Hero() {
   const cards = [

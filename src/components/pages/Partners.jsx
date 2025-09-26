@@ -2,8 +2,8 @@ import React from "react";
 import PartnerSection from "../common/PartnerSection";
 import FeatureSection from "../common/FeatureSection";
 import PromoBanner from "../common/PromoBanner";
-import CardGridSection from "../common/CardGridSection";
 import FAQSection from "../common/FAQSection";
+import CardGridSection from "../common/CardGridSection";
 import { FaPercent, FaTachometerAlt, FaAward } from "react-icons/fa";
 
 export default function Partners() {
