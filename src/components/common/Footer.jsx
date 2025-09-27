@@ -15,7 +15,7 @@ import {
 function Logo({ className = "h-10 w-10" }) {
   return (
     <div
-      className={`${className} flex items-center justify-center rounded-md bg-teal-700 text-white font-bold`}
+      className={`${className} flex items-center justify-center rounded-md bg-[#022e37] text-white font-bold`}
       aria-hidden
     >
       GC
@@ -65,7 +65,7 @@ export default function Footer() {
               <img
                 src="/GaneCapital-logo.png"
                 alt="Visa"
-                className="h-20 w-auto"
+                className="h-40 w-40"
               />
             </div>
           </div>
