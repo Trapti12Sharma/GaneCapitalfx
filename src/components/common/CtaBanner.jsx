@@ -7,11 +7,11 @@ export default function CtaBanner({
   primaryBtnUrl = "#",
   secondaryBtnText = "TRY FOR FREE",
   secondaryBtnUrl = "#",
-  bgColor = "bg-[#1f1f1f]",
+  bgColor = "bg-[#022e37]",
   textColor = "text-white",
-  subtitleColor = "text-teal-400",
-  primaryBtnColor = "bg-[#7fd6c6] text-black hover:opacity-90",
-  secondaryBtnColor = "border border-[#7fd6c6] text-white hover:bg-[#7fd6c6] hover:text-black",
+  subtitleColor = "text-[#022e37]",
+  primaryBtnColor = "bg-[#b88f51] text-[#022e37] hover:opacity-90",
+  secondaryBtnColor = "border border-[#7fd6c6] text-white ",
 }) {
   return (
     <section className="py-10 px-4">
@@ -19,7 +19,7 @@ export default function CtaBanner({
         className={`max-w-5xl mx-auto rounded-2xl shadow-md p-8 text-center ${bgColor}`}
       >
         {/* Subtitle */}
-        <p className={`text-sm font-semibold mb-3 uppercase ${subtitleColor}`}>
+        <p className={`text-sm font-semibold mb-3 uppercase text-[#b88f51]`}>
           {subtitle}
         </p>
 

@@ -94,9 +94,6 @@ export default function Hero() {
         primaryBtnUrl="/start"
         secondaryBtnText="TRY FOR FREE"
         secondaryBtnUrl="/demo"
-        bgColor="bg-[#1f1f1f]"
-        textColor="text-white"
-        subtitleColor="text-teal-400"
       />
 
       <FeatureSection

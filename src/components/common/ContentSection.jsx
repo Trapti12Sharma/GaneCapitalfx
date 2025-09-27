@@ -7,7 +7,7 @@ export default function ContentSection({
   description,
   bgColor = "#ffffff",
   textColor = "#111827", // Tailwind's gray-900
-  subtitleColor = "#14b8a6", // Tailwind's teal-500
+  subtitleColor = "#022e37", // Tailwind's teal-500
   image = null,
   link = null,
   linkText = null,

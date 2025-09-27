@@ -17,7 +17,7 @@ export default function FAQSection({
       <div className="max-w-4xl mx-auto px-4">
         {/* Section Header */}
         {subtitle && (
-          <p className="text-sm font-semibold text-teal-600 uppercase tracking-wide">
+          <p className="text-sm font-semibold text-[#022e37] uppercase tracking-wide">
             {subtitle}
           </p>
         )}

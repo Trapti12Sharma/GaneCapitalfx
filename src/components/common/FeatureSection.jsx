@@ -6,11 +6,13 @@ export default function FeatureSection({ subtitle, title, cards }) {
     <section className="bg-[#f9fafb] py-12 px-4">
       <div className="max-w-7xl mx-auto text-center mb-10">
         {subtitle && (
-          <p className="text-sm uppercase tracking-wide text-[#008080] font-medium mb-2">
+          <p className="text-sm uppercase tracking-wide text-[#022e37] font-medium mb-2">
             {subtitle}
           </p>
         )}
-        {title && <h2 className="text-3xl font-bold text-gray-900">{title}</h2>}
+        {title && (
+          <h2 className="text-3xl font-bold text-[#022e37]">{title}</h2>
+        )}
       </div>
 
       <div className="max-w-7xl mx-auto grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -25,7 +27,7 @@ export default function FeatureSection({ subtitle, title, cards }) {
             )}
 
             {/* Title */}
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">
+            <h3 className="text-lg font-semibold text-[#022e37] mb-2">
               {card.title}
             </h3>
 
@@ -36,7 +38,7 @@ export default function FeatureSection({ subtitle, title, cards }) {
             {card.linkText && (
               <Link
                 to={card.linkUrl || "#"}
-                className="text-blue-600 font-medium hover:underline mt-auto"
+                className="text-[#022e37] font-medium hover:underline mt-auto"
               >
                 {card.linkText}
               </Link>

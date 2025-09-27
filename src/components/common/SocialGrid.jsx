@@ -11,7 +11,7 @@ export default function SocialGrid({
   return (
     <section className={`${bgColor} py-12 px-4`}>
       <div className="max-w-7xl mx-auto text-center mb-10">
-        <p className="text-sm font-semibold text-teal-600 uppercase">
+        <p className="text-sm font-semibold text-[#022e37] uppercase">
           {subtitle}
         </p>
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
@@ -34,7 +34,7 @@ export default function SocialGrid({
             <div className="text-4xl mb-3 text-black">{social.icon}</div>
 
             {/* Name */}
-            <span className="text-blue-600 font-medium">{social.name}</span>
+            <span className="text-[#022e37] font-medium">{social.name}</span>
           </a>
         ))}
       </div>

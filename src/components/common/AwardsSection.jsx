@@ -5,7 +5,7 @@ export default function AwardsSection({ subtitle, title, awards }) {
     <section className="py-12 bg-white">
       <div className="max-w-7xl mx-auto px-4 text-center">
         {/* Section Heading */}
-        <p className="text-sm font-semibold text-teal-600 uppercase tracking-wide">
+        <p className="text-sm font-semibold text-[#022e37] uppercase tracking-wide">
           {subtitle}
         </p>
         <h2 className="mt-2 text-3xl md:text-4xl font-bold text-gray-900">

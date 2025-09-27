@@ -272,7 +272,7 @@ export default function Forex() {
         secondaryBtnUrl="/demo"
         bgColor="bg-[#1f1f1f]"
         textColor="text-white"
-        subtitleColor="text-teal-400"
+        subtitleColor="text-[#b88f51]"
       />
 
       <DataTable

@@ -39,10 +39,10 @@ export default function Footer() {
           </h3>
 
           <div className="flex justify-center gap-3 mb-4 flex-wrap">
-            <button className="bg-[#36d399] hover:bg-[#2ebc84] text-white font-semibold px-4 py-2 rounded transition">
+            <button className="bg-[#022e37] text-[#b88f51] font-semibold px-4 py-2 rounded transition">
               START TRADING
             </button>
-            <button className="border border-[#36d399] text-[#36d399] hover:bg-[#36d399] hover:text-white font-semibold px-4 py-2 rounded transition">
+            <button className="border border-[#022e37] text-[#b88f51]  font-semibold px-4 py-2 rounded transition">
               TRY FOR FREE
             </button>
           </div>
@@ -71,17 +71,26 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-3 text-gray-400">
-            <a href="#" className="hover:text-white" aria-label="Facebook">
+            <a
+              href="https://www.facebook.com/profile.php?id=61581003343218"
+              className="  hover:text-white"
+              aria-label="Facebook"
+            >
               <FaFacebookF />
             </a>
-            <a href="#" className="hover:text-white" aria-label="Twitter">
+            <a
+              href="https://x.com/ganecapitalfx"
+              className="hover:text-white"
+              aria-label="Twitter"
+            >
               <FaTwitter />
             </a>
-            <a href="#" className="hover:text-white" aria-label="Instagram">
+            <a
+              href="https://www.instagram.com/ganecapitalfx/"
+              className="hover:text-white"
+              aria-label="Instagram"
+            >
               <FaInstagram />
-            </a>
-            <a href="#" className="hover:text-white" aria-label="LinkedIn">
-              <FaLinkedinIn />
             </a>
           </div>
         </div>
@@ -92,33 +101,28 @@ export default function Footer() {
             <h4 className="font-semibold mb-3 text-white">Products</h4>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
-                <a className="hover:text-white" href="#">
+                <a className="hover:text-white" href="/forex">
                   Forex
                 </a>
               </li>
               <li>
-                <a className="hover:text-white" href="#">
+                <a className="hover:text-white" href="/indices">
                   Indices
                 </a>
               </li>
               <li>
-                <a className="hover:text-white" href="#">
+                <a className="hover:text-white" href="/commodities">
                   Commodities
                 </a>
               </li>
               <li>
-                <a className="hover:text-white" href="#">
+                <a className="hover:text-white" href="/shares">
                   Shares
                 </a>
               </li>
               <li>
-                <a className="hover:text-white" href="#">
-                  ETFs
-                </a>
-              </li>
-              <li>
-                <a className="hover:text-white" href="#">
-                  All products
+                <a className="hover:text-white" href="/deposit-withdrawal">
+                  Deposit and Withdrawals
                 </a>
               </li>
             </ul>
@@ -128,22 +132,18 @@ export default function Footer() {
             <h4 className="font-semibold mb-3 text-white">Platforms</h4>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
-                <a className="hover:text-white" href="#">
+                <a className="hover:text-white" href="/mt4">
                   MetaTrader 4
                 </a>
               </li>
               <li>
-                <a className="hover:text-white" href="#">
+                <a className="hover:text-white" href="/mt5">
                   MetaTrader 5
                 </a>
               </li>
+
               <li>
-                <a className="hover:text-white" href="#">
-                  Equiti Trader App
-                </a>
-              </li>
-              <li>
-                <a className="hover:text-white" href="#">
+                <a className="hover:text-white" href="/all-platforms">
                   All platforms
                 </a>
               </li>
@@ -154,17 +154,17 @@ export default function Footer() {
             <h4 className="font-semibold mb-3 text-white">Accounts</h4>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
-                <a className="hover:text-white" href="#">
+                <a className="hover:text-white" href="/copy-trading">
                   Copy trading
                 </a>
               </li>
               <li>
-                <a className="hover:text-white" href="#">
+                <a className="hover:text-white" href="/demo">
                   Demo
                 </a>
               </li>
               <li>
-                <a className="hover:text-white" href="#">
+                <a className="hover:text-white" href="/all-accounts">
                   All accounts
                 </a>
               </li>
@@ -175,13 +175,8 @@ export default function Footer() {
             <h4 className="font-semibold mb-3 text-white">Partnerships</h4>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
-                <a className="hover:text-white" href="#">
+                <a className="hover:text-white" href="/partners">
                   Partner with us
-                </a>
-              </li>
-              <li>
-                <a className="hover:text-white" href="#">
-                  Refer a friend
                 </a>
               </li>
             </ul>
@@ -193,18 +188,8 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
-                <a className="hover:text-white" href="#">
+                <a className="hover:text-white" href="/about">
                   About us
-                </a>
-              </li>
-              <li>
-                <a className="hover:text-white" href="#">
-                  Careers
-                </a>
-              </li>
-              <li>
-                <a className="hover:text-white" href="#">
-                  Media releases
                 </a>
               </li>
             </ul>

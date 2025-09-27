@@ -22,7 +22,7 @@ export default function DataTable({
       <div className="max-w-6xl mx-auto px-4">
         {/* Header */}
         {subtitle && (
-          <p className="text-sm font-semibold text-teal-600 uppercase tracking-wide">
+          <p className="text-sm font-semibold text-[#022e37] uppercase tracking-wide">
             {subtitle}
           </p>
         )}

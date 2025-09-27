@@ -41,7 +41,7 @@ export default function CardGridSection({
             {card.linkText && (
               <a
                 href={card.linkUrl || "#"}
-                className="text-blue-600 font-medium hover:underline"
+                className="text-[#022e37] font-medium hover:underline"
               >
                 {card.linkText}
               </a>

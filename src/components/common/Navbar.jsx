@@ -65,7 +65,9 @@ export default function Navbar() {
           {/* Right: Buttons */}
           <div className="flex items-center gap-3">
             <div className="hidden md:block">
-              <Button variant="outline">RISK-FREE DEMO</Button>
+              <Link to="/demo">
+                <Button variant="outline">RISK-FREE DEMO</Button>
+              </Link>
             </div>
             <Button variant="primary">START TRADING</Button>
 

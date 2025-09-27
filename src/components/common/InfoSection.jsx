@@ -7,7 +7,7 @@ export default function InfoSection({
   linkText = "All trading products",
   linkUrl = "#",
   imgSrc = "https://via.placeholder.com/500x300",
-  bgColor = "bg-white",
+  bgColor = "bg-[#022e37]",
   textColor = "text-gray-800",
 }) {
   return (
@@ -17,7 +17,7 @@ export default function InfoSection({
       >
         {/* Left Content */}
         <div className="space-y-4">
-          <p className="text-sm font-semibold text-teal-700 uppercase">
+          <p className="text-sm font-semibold text-[#b88f51] uppercase">
             {subtitle}
           </p>
           <h2
@@ -25,10 +25,10 @@ export default function InfoSection({
           >
             {title}
           </h2>
-          <p className="text-gray-600">{description}</p>
+          <p className="text-[#022e37]">{description}</p>
           <a
             href={linkUrl}
-            className="text-blue-600 font-semibold hover:underline inline-block"
+            className="text-[#b88f51] font-semibold hover:underline inline-block"
           >
             {linkText}
           </a>

@@ -15,7 +15,7 @@ export default function PartnerSection({
       <div className="max-w-5xl mx-auto px-4 text-center">
         {/* Subtitle */}
         {subtitle && (
-          <p className="text-sm font-semibold text-teal-600 uppercase tracking-wide">
+          <p className="text-sm font-semibold text-[#022e37] uppercase tracking-wide">
             {subtitle}
           </p>
         )}
@@ -35,7 +35,7 @@ export default function PartnerSection({
           <div className="mt-6">
             <Link
               to={buttonLink}
-              className="px-6 py-3 bg-teal-500 text-white font-semibold rounded-md shadow hover:bg-teal-600 transition"
+              className="px-6 py-3 bg-[#022e37] text-[#b88f51] font-semibold rounded-md shadow hover:bg-[#b88f51] hover:text-[#022e37] transition"
             >
               {buttonText}
             </Link>

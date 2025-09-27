@@ -2,20 +2,23 @@ import React from "react";
 
 const PromoBanner = () => {
   return (
-    <section className="bg-gray-900 text-white rounded-2xl px-6 py-10 sm:px-4 md:px-12 lg:px-16 flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto my-10">
+    <section className="bg-[#022e37] text-[#b88f51] rounded-2xl px-6 py-10 sm:px-4 md:px-12 lg:px-16 flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto my-10">
       {/* Left Content */}
       <div className="max-w-lg text-center md:text-left">
-        <p className="text-teal-400 text-xs sm:text-sm font-semibold tracking-wide">
+        <p className="text-white text-xs sm:text-sm font-semibold tracking-wide">
           WELCOME BONUS
         </p>
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mt-3 leading-snug">
           Make your first deposit and get{" "}
-          <span className="text-teal-400">100% extra trading credit!</span>
+          <span className="text-white">100% extra trading credit!</span>
         </h2>
-        <p className="text-gray-400 mt-3 text-sm sm:text-base">
+        <p className="text-white mt-3 text-sm sm:text-base">
           Terms and conditions apply.
         </p>
-        <button className="mt-6 px-5 sm:px-6 py-3 bg-teal-400 text-gray-900 rounded-md font-semibold hover:bg-teal-300 transition w-full sm:w-auto">
+        <button
+          className="mt-6 px-5 sm:px-6 py-3 text-[#022e37] bg-[#b88f51]
+ rounded-md font-semibold  transition w-full sm:w-auto"
+        >
           OPEN ACCOUNT
         </button>
       </div>

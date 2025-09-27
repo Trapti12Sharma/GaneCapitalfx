@@ -9,7 +9,7 @@ export default function Button({
   const base =
     "px-4 py-2 rounded-md font-semibold transition text-center border";
   const variants = {
-    primary: "bg-[#7fd6c6] border-[#7fd6c6] text-black hover:opacity-90",
+    primary: "bg-[#022e37] border-[#022e37] text-[#b88f51] hover:opacity-90",
     outline: "bg-transparent border-gray-400 text-black hover:bg-gray-50",
   };
 
